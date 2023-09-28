@@ -184,7 +184,7 @@ resource "aws_autoscaling_group" "my_asg" {
   max_size = 5
 
   launch_template {
-    id = "lt-0dd5f25120494996d"  
+    id = "your-launch-template-id"  
   }
 
   vpc_zone_identifier = ["subnet_1", "subnet_2"]  
